@@ -1,0 +1,294 @@
+  <!DOCTYPE html>
+  <html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <title>首页</title>
+        <link href='./help/css/bootstrap.min.css' rel='stylesheet' />
+        <link href='./help/css/bootstrap-responsive.min.css' rel='stylesheet' />
+        <link href='./help/css/sm-extend.css' rel='stylesheet' />
+        <link href='./help/css/sm-doc.css' rel='stylesheet' />
+    </head>
+    <body data-spy="scroll" data-target=".subnav" data-offset="50">
+        <!--导航条-->
+        <div class="navbar navbar-fixed-top" id="navbar">
+
+        </div>
+        <br>
+        <!--功能区-->
+        <div id='container' class='container'>
+        <div class="topBanner">
+            <div class="hero-unit ">
+                <h2><font color="#0000FF">SuperMap iClient for iOS</font></h2>
+                <br>
+                <p>SuperMap iClient for iOS是一套基于iOS平台的轻量级地图软件开发包（SDK），
+                    提供了针对iPhone以及iPad移动设备的Web地图访问接口，包括地图浏览等基本接口，以及查询、量算、标绘等服务，
+                    同时支持离线数据的读取，在无网络条件下仍可便捷的访问地图。
+                    通过该产品可以在iOS平台下快速访问SuperMap iServer发布的REST地图服务。</p>
+                <br>
+                <br>
+                <a class="btn btn-success" href="./help/intro.html">更多详情请访问 >></a>
+            </div>
+        </div>
+        <div class="row-fluid">
+
+            <div>
+                <h2 class="title" id="details1">产品功能</h2>
+                <ul>
+                    <li > <strong> (1)支持的服务列表： </strong> </li>
+                    <ul  class="circle">
+                        <li>SuperMap iServer 服务
+                            <ul  class="disc">
+                                <li>地图服务 </li>
+                                <li>量算服务</li>
+                                <li>查询服务</li>
+                                <li>最佳路径分析服务</li>
+								<li>单值专题图服务</li>
+							    <li>动态分段分析服务</li>
+                                <li>交通换乘分析服务</li>
+                            </ul>
+                        </li>
+                        <li>SuperMap 云服务</li>
+                        <li>支持MBTiles离线地图服务</li>
+                        <li>WMS标准地图服务 (WMS)</li>
+                        <li>其他第三方服务，如OpenStreetMap,天地图等</li>
+                    </ul>
+                </ul>
+            </div>
+			<div>
+                        <h2 class="title" id="details1">产品变更信息</h2>
+						
+						当前版本：8C(2017) beta<br/>
+                        上次版本：8C SP2<br/>
+                        <br/>
+                        <ul>
+                            <li><strong>1.新增功能： </strong></li>
+                            <ul>
+                                <li>(1) 新增对百度地图的支持，并提供示范代码 </li>
+								<li>(2) 提高个别比例尺下地图清晰度 </li>
+                                
+                            </ul>
+                    
+                            <li><strong>2. 产品bug修复： </strong></li>
+                            <ul>
+                                <li>(1) 修复没有默认比例尺崩溃问题</li>
+                                
+                            </ul>
+                            
+                           
+                        </ul>
+						
+                        当前版本：8C SP2<br/>
+                        上次版本：8C<br/>
+                        <br/>
+                        <ul>
+                            <li><strong>1.新增功能： </strong></li>
+                            <ul>
+                                <li>(1) 新增地图纠偏功能，用于纠正底图与叠加层的偏移问题 </li>
+                                <li>(2) 新增瓦片缓存功能，当用户需要在本地缓存瓦片数据时，新增设置缓存路径功能；当用户需要清空本地缓存瓦片数据时，新增清空缓存数据功能</li>
+                                <li>(3) 新增按时间进行班车查询功能，该功能会考虑班车线路的首末时间的限制，过滤掉班车运行时间不包含出行时间的线路</li>
+                            </ul>
+                    
+                            <li><strong>2. 产品bug修复： </strong></li>
+                            <ul>
+                                <li>(1) 修复移除RMTileSource，再次添加RMTileSource崩溃的缺陷</li>
+                                <li>(2) 修复当RMSMMBTileSource中只包含局部地图时，切片无法显示的缺陷</li>
+                                <li>(3) 修复采用平面坐标系的地图在浏览时抖动且与marker叠加不上的缺陷</li>
+								<li>(4) 修复不同比例尺下，地图显示位置偏移的缺陷</li>
+								<li>(5) 修复在地图浏览过程中，偶尔边缘出现白块的缺陷</li>
+                            </ul>
+                            <li><strong>3. 接口变更： </strong></li>
+                            <ul>
+                                <li>(1) 增加地图纠偏接口</li>
+                                <li>(2) 增加设置缓存路径接口</li>
+                                <li>(3) 增加清除本地缓存接口</li>
+								<li>(4) 班车查询功能中新增设置出行时间接口</li>
+                            </ul>
+                           
+                        </ul>
+						
+                        当前版本：8c<br/>
+                        上次版本：7.2 Bate<br/>
+                        <br/>
+                        <ul>
+                        
+                            <li><strong>1. 产品bug修复： </strong></li>
+                            <ul>
+                                <li>(1) 修复sql查询的参数错误bug</li>
+                               
+                               
+                            </ul>
+                          
+                        </ul>
+						
+                        
+                        当前版本：7.2 Bate<br/>
+                        上次版本：7.1 SP2<br/>
+                        <br/>
+                        <ul>
+                            <li><strong>1.新增功能： </strong></li>
+                            <ul>
+                                <li>(1) MapView新增长按事件 </li>
+                                <li>(2) 新增图片叠加功能以及示例代码</li>
+                                <li>(3) 新增对天地图的支持</li>
+                                <li>(4) 添加公交换乘优先(避让)站点(线路)的分析参数</li>
+                            </ul>
+                    
+                            <li><strong>2. 产品bug修复： </strong></li>
+                            <ul>
+                                <li>(1) 修复iServer地图叠加偏移问题</li>
+                                <li>(2) 修复快速缩放地图导致出现白图的bug</li>
+                                <li>(3) 修复空间分析参数类型与服务器不一致问题</li>
+                            </ul>
+                            <li><strong>3. 接口变更： </strong></li>
+                            <ul>
+                                <li>(1) 增加地图图层列表信息获取接口</li>
+                                <li>(2) 公交换乘服务接口回调方法变更为主线程中调用</li>
+                                <li>(3) 公交换乘分析solution中增加suggestWalking字段</li>
+                            </ul>
+                            <li><strong>4. 新增范例： </strong></li>
+                            <ul>
+                                <li>(1) 增加天地图案例</li>
+                            </ul>
+                           
+                        </ul>
+                        
+                        
+                        当前版本：7.1 SP2<br/>
+                        上次版本：7.1 SP1<br/>
+                        <br/>
+                        <ul>
+                            <li><strong>1.新增功能： </strong></li>
+                            <ul>
+                                <li>(1) 新增交通换乘分析服务 </li>
+                                <li>(1) 兼容ios64位系统 </li>
+                            </ul>
+                            <li><strong>2. 接口变更： </strong></li>
+                            <ul>
+                                <li>(1) 动态分段，专题图，最佳路劲分析，量测，查询服务回调通知名称变更</li>
+                            </ul>
+                            <li><strong>3. 产品包以及产品化工作的完善： </strong></li>
+                            <ul>
+                                <li>(1) 增加交通换乘服务相关的注释和文档</li>
+                            </ul>
+                            <li><strong>4. 新增范例： </strong></li>
+                            <ul>
+                                <li>(1) 增加交通换乘分析服务范例</li>
+                            </ul>
+                        </ul>
+                        
+                        
+                        
+                        
+                当前版本：7.1 SP1<br/>
+                上次版本：7.1<br/>
+                <br/>
+                <ul>
+                    <li><strong>1.新增功能： </strong></li>
+                    <ul>
+                        <li>(1) 新增动态分段服务 </li>
+                        <li>(2) 新增单值专题图服务 </li>
+                        <li>(3) 新增对叠加地图服务的支持 </li>
+                    </ul>
+                    <li><strong>2. 接口变更： </strong></li>
+                    <ul>
+                        <li>(1) RMMapContents 增加对添加图层、移除非底图图层、隐藏图层、设置图层透明度的支持</li>
+                    </ul>
+                    <li><strong>3. 产品包以及产品化工作的完善： </strong></li>
+                    <ul>
+                        <li>(1) 完善RMMapContents的类注释和文档</li>
+                        <li>(2) 增加动态分段服务相关的注释和文档</li>
+                        <li>(2) 增加单值专题图相关的注释和文档</li>
+                    </ul>
+                    <li><strong>4. 新增范例： </strong></li>
+                    <ul>
+                        <li>(1) 增加动态分段服务范例</li>
+                    </ul>
+                </ul>
+                当前版本：7.1<br/>
+                上次版本：7.0 SP2<br/>
+                <br/>
+                <ul>
+                    <li>产品无变更 </strong></li>
+                </ul>
+                当前版本：7.0 SP2<br/>
+                上次版本：7.0 SP1<br/>
+                <br/>
+                <ul>
+                    <li><strong>1.新增功能： </strong></li>
+                    <ul>
+                        <li>(1) 新增最佳路径分析服务 </li>
+                    </ul>
+                    <li><strong>2. 接口变更： </strong></li>
+                    <ul>
+                        <li>(1) RMSMMBTileSource增加对smtiles格式的支持</li>
+                        <li>(2) RMMapContents 增加用于将像素坐标转换为地理坐标的方法</li>
+                    </ul>
+                    <li><strong>3. 产品包以及产品化工作的完善： </strong></li>
+                    <ul>
+                        <li>(1) 完善Marker and other layers 的类注释</li>
+                        <li>(2) 增加最佳路径分析服务相关的注释和文档</li>
+                    </ul>
+                    <li><strong>4. 新增范例： </strong></li>
+                    <ul>
+                        <li>(1) 增加最佳路径分析范例</li>
+                        <li>(2) 增加获取单指触摸位置的像素坐标和地理坐标的范例</li>
+                    </ul>
+                </ul>
+                当前版本：7.0 SP1<br/>
+                上次版本：7.0<br/>
+                        <br/>
+                        <ul>
+                            <li><strong>1. 接口变更： </strong></li>
+                                    <ul>
+                                        <li>(1) RMSMTileSource增加scales接口</li>
+                                        <li>(2) 为传入的resolutions和scales数组增加排序逻辑</li>
+                                        <li>(3) RMSMTileSource 增加设置到url上的参数</li>
+                                        <li>(4) RMProjection增加用于创建SMProjection的实例方法</li>
+                                    </ul>
+                            <li><strong>2. 产品包以及产品化工作的完善： </strong></li>
+                            <ul>
+                                <li>(1) 完善RMMapView类注释</li>
+                                <li>(2) 完善RMMapContents类注释</li>
+                            </ul>
+                            <li><strong>3. 修复的问题： </strong></li>
+                            <ul>
+                                <li>(1) 解决设置resolutions级数报错的问题</li>
+                                <li>(2) 解决地图中心点计算错误的问题</li>
+                            </ul>
+                        </ul>
+                    </div>
+        </div>
+           <br/>
+           <br/>
+           <div>
+                <p>本文档完成日期为2015年7月29日，如果此前的任何文档(包括电子文档和印刷文档)中的某些内容与本文档不相符合，请以本文档为准。若本文档更新，则以更新后的文档为准。</p>
+            </div>
+
+        <hr>
+            <div class='footer'>
+            <p>版权所有&nbsp;&copy; 2000-2015. &nbsp;北京超图软件股份有限公司</p>
+        </div>
+    </div>
+    <script src='./help/js/jquery.js'></script>
+    <script src='./help/js/bootstrap.js'></script>
+    <script type="text/javascript">
+        var isListToggled = false;
+        function toggleList(){
+            var lists = $("#lists");
+            var link = document.getElementById("togglelink");
+            if(!isListToggled){
+                link.innerText = "显示";
+                lists.hide('slow');
+                isListToggled = true;
+                }else{
+                link.innerText = "隐藏";
+                lists.show();
+                isListToggled = false;
+            }
+        }
+    </script>
+ <script src="help/js/navbar.js"></script>
+</body>
+</html>
