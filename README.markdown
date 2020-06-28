@@ -1,6 +1,6 @@
 ### 一、简介
 
-SuperMap iClient for iOS是一套基于iOS平台的轻量级地图软件开发包（SDK），提供了针对iPhone以及iPad移动设备的Web地图访问接口，包括地图浏览等基本接口，以及查询、量算、标绘等服务，同时支持离线数据的读取，在无网络条件下仍可便捷的访问地图。通过该产品可以在iOS平台下快速访问SuperMap iServer发布的REST地图服务。
+SuperMap iMobile Lite for iOS是一套基于iOS平台的轻量级地图软件开发包（SDK），提供了针对iPhone以及iPad移动设备的Web地图访问接口，包括地图浏览等基本接口，以及查询、量算、标绘等服务，同时支持离线数据的读取，在无网络条件下仍可便捷的访问地图。通过该产品可以在iOS平台下快速访问SuperMap iServer发布的REST地图服务。
 
 特点
  
@@ -30,12 +30,12 @@ SuperMap iClient for iOS是一套基于iOS平台的轻量级地图软件开发�
 
 ### 四、目录说明
 
-- doc 存放iClient for iOS API接口说明文档。
-- help存放iClient for iOS 帮助文档
-- MapView存放iClient for iOS 的开源库
+- doc 存放iMobile Lite for iOS API接口说明文档。
+- help存放iMobile Lite for iOS 帮助文档
+- MapView存放iMobile Lite for iOS 的开源库
 - Proj4为用于投影转换的开源库
-- samples存放iClient for iOS 的使用范例
-- License用于说明iClient for iOS免费版和商业版两种使用方式的许可
+- samples存放iMobile Lite for iOS 的使用范例
+- License用于说明iMobile Lite for iOS免费版和商业版两种使用方式的许可
 - index.html为产品帮助文档首页
 - README.markdown为产品说明文档
 
