@@ -1,4 +1,4 @@
-### 一、简介
+﻿### 一、简介
 
 SuperMap iMobile Lite for iOS是一套基于iOS平台的轻量级地图软件开发包（SDK），提供了针对iPhone以及iPad移动设备的Web地图访问接口，包括地图浏览等基本接口，以及查询、量算、标绘等服务，同时支持离线数据的读取，在无网络条件下仍可便捷的访问地图。通过该产品可以在iOS平台下快速访问SuperMap iServer发布的REST地图服务。
 
