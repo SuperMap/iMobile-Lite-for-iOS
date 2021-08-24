@@ -102,4 +102,4 @@ SuperMap iMobile Lite for iOS是一套基于iOS平台的轻量级地图软件开
 - 解决设置resolutions级数报错的问题
 - 解决地图中心点计算错误的问题
 
-
+ 
